@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #eaeaea; /* Cor de fundo suave */
+    color: #333;
+}
+
+header {
+    background-color: #007BFF; /* Azul forte */
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #FFD700; /* Amarelo dourado ao passar o mouse */
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.banner {
+    background-image: url('imagens/banner-image.jpg'); /* Atualize o caminho conforme necessário */
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.banner-content {
+    max-width: 800px; /* Largura máxima do conteúdo do banner */
+    margin: 0 auto; /* Centraliza horizontalmente */
+}
+
+.banner h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.banner p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.btn {
+    background-color: #FF5733; /* Cor do botão */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.btn:hover {
+    background-color: #c0392b; /* Cor do botão ao passar o mouse */
+    transform: scale(1.05); /* Efeito de aumento ao passar o mouse */
+}
+
+.featured-courses {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.featured-courses h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.course-grid {
+    display: flex;
+    justify-content: center; /* Centraliza os cards */
+    flex-wrap: wrap;
+}
+
+.course-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.course-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.course-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-posts {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #fff; /* Fundo branco para destacar a seção */
+    margin-top: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+}
+
+.blog-posts h2 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.blog-grid {
+    display: flex;
+    justify-content: center; /* Centraliza os cards */
+    flex-wrap: wrap;
+}
+
+.blog-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.blog-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.blog-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.blog-card h3 a {
+    color: #007BFF; /* Cor do link */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.blog-card h3 a:hover {
+    color: #FF5733; /* Cor ao passar o mouse */
+}
+
+footer {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+footer .social-links {
+    margin-top: 10px;
+}
+
+footer .social-links a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+footer .social-links a:hover {
+    color: #FFD700; /* Amarelo dourado ao passar o mouse */
+}
